@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/gradient_bg"
+    tools:context=".LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/calenderimage"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLay1"
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            android:visibility="gone"
+            android:layout_below="@id/imageView">
+
+
+            <TextView
+                android:id="@+id/loginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN."
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"/>
+            <LinearLayout
+                android:id="@+id/linearLay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/loginTextView">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EMAIL"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            />
+                        <EditText
+                            android:id="@+id/emailEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/box_outline"
+                            android:hint="email"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="casual"
+                            android:layout_marginTop="10dp"
+                            />
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PASSWORD"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        />
+                    <EditText
+                        android:id="@+id/passwordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/box_outline"
+                        android:hint="password"
+                        android:textColor="@color/white"
+                        android:fontFamily="casual"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/linearLay1"
+                android:layout_marginTop="100dp"
+                android:text="Login"
+                android:fontFamily="sans-serif-black"
+                android:textSize="17dp"
+                android:background="@drawable/button_bg"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/signUpTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New User Analle enna SIGN UP"
+            android:fontFamily="casual"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

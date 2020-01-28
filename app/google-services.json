@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232284681817",
+    "firebase_url": "https://weekly-planner-a12d0.firebaseio.com",
+    "project_id": "weekly-planner-a12d0",
+    "storage_bucket": "weekly-planner-a12d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232284681817:android:065f5d45e72b4f2df76348",
+        "android_client_info": {
+          "package_name": "com.eldhose.weeklyplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232284681817-pvumcn3pb9ve2l292h28l6irka8684fn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eldhose.weeklyplanner",
+            "certificate_hash": "aba7e18988b8dd55e72d22d5fce987ade1d2e409"
+          }
+        },
+        {
+          "client_id": "232284681817-p2tste01qh70ungoebtcm0tp2vhc6to3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6pQi_BQyKEsoglGaDID-cuVZ_N0x3G2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232284681817-p2tste01qh70ungoebtcm0tp2vhc6to3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
