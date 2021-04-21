@@ -4,8 +4,7 @@
     android:layout_height="60dp"
     android:layout_marginVertical="8dp"
     android:layout_marginHorizontal="40dp"
-    android:background="@drawable/button_bg"
-    android:backgroundTint="@color/white">
+    android:background="#07000000">
 
     <CheckBox
         android:id="@+id/checkbox2"
@@ -18,8 +17,10 @@
         android:id="@+id/title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:text="this is subnote"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
         android:layout_gravity="center_vertical"
         android:layout_marginStart="20dp"/>
 

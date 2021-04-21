@@ -3,7 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorPrimary">
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/dayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Day"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="35sp"/>
+
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/dateRecycler"
+        android:layout_below="@+id/dayView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:selectorColor="@color/colorPrimaryDark"
+        app:textColorNormal="@color/black"
+        android:background="@color/colorPrimary"
+        app:selectedDateBackground="@color/black"
+        app:textColorSelected="@color/colorPrimaryDark"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/dateRecycler"
+        android:id="@+id/recyclerView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="200dp"

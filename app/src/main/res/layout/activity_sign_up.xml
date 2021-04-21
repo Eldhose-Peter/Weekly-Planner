@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:background="@drawable/gradient_bg"
-    tools:context=".SignUpActivity">
+    tools:context=".Login.SignUpActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
